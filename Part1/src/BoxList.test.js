@@ -55,6 +55,6 @@ it('can remove a box', function() {
     expect(heightInput.value).toBe('');
     expect(widthInput.value).toBe('');
     expect(backgroundInput.value).toBe('');
-  });
+});
 
 

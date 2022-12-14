@@ -4,7 +4,6 @@ import NewBoxForm from "./NewBoxForm";
 
 
 const BoxList = () => {
-
     const [boxes, setBoxes] = useState([]);
     const addBox = (newBox) => {
         setBoxes(boxes => [...boxes, newBox])
